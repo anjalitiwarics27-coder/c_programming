@@ -22,7 +22,7 @@
 
 // #include<stdio.h>
 // int main(){
-//     int n,d;
+//     int n,d;s
 //     printf("enter a number :");
 //     scanf("%d",&n);
 //     printf("enter the differences ");
