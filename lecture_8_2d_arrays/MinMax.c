@@ -1,0 +1,23 @@
+#include<stdio.h>
+int main(){
+    int arr[3][3]={{1,2,4},{7,6,5},{3,8,1}};
+    int max = arr[0][0];
+    int min = arr[0][0];
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            if(max<arr[i][j]){
+                max=arr[i][j];
+            }
+        }
+    }
+    for(int i=0;i<3;i++){
+        for(int j=0;j<3;j++){
+            if(min>arr[i][j]){
+                min=arr[i][j];
+            }
+        }
+    }
+    printf("max %d \n",max);
+    printf("min %d \n",min);
+    return 0;
+}
